@@ -12,4 +12,4 @@ on:
                                   steps:
                                   - uses: actions/checkout@v4
                                   - name: Run a one-line script 
-                                            run: eho Hello, ${{ inputs.surname }}!
+                                            run: echo Hello, ${{ inputs.surname }}!
