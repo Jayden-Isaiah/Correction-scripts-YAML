@@ -6,7 +6,8 @@ on:
                 pull_request: 
                       branches: [ "main" ] 
         jobs: 
-                        # Ce workflow contient un seul job appelé “build” build: 
+                        # Ce workflow contient un seul job appelé “build” 
+                        build: 
                         
                                   runs-on: ${{ inputs.os }} 
                                   steps:
