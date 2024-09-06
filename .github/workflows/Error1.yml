@@ -5,7 +5,13 @@ on:
                       branches: [ "main" ]
                 pull_request: 
                       branches: [ "main" ] 
-        workflow_dispacth
+        workflow_dispacth:
+                inputs:
+                  on:
+                        type: string
+                        description: "système d'exploitation"
+                        default: "ubuntu-latest"
+                        required: true
                       
         jobs: 
                         # Ce workflow contient un seul job appelé “build” 
