@@ -5,7 +5,7 @@ on:
                       branches: [ "main" ]
                 pull_request: 
                       branches: [ "main" ] 
-        workflow-dispacth
+        workflow_dispacth
                       
         jobs: 
                         # Ce workflow contient un seul job appelé “build” 
