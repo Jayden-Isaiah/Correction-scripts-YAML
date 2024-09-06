@@ -7,10 +7,15 @@ on:
                       branches: [ "main" ] 
         workflow_dispacth:
                 inputs:
-                  on:
+                  os:
                         type: string
                         description: "système d'exploitation"
                         default: "ubuntu-latest"
+                        required: true
+                   surname:
+                        type: string
+                        description: "prenom"
+                        default: "jphn-doe"
                         required: true
                       
         jobs: 
